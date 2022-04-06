@@ -305,9 +305,9 @@ overflow: hidden;
 }
 
 #B-Menu:checked ~ .RMenu {
-    margin-top: 25px; 
-    opacity: 10%;   
-    }  
+margin-top: 25px; 
+opacity: 100%;   
+}  
     
     
 
