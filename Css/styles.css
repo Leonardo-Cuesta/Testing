@@ -1,12 +1,26 @@
+/*Body and General Designs*/
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-
-
 body{
 background-color: black;    
+}
+/*Body and General Designs*/
+
+
+/*Header*/
+#MenuR Label{
+display: none;
+    
+}
+#B-Menu{
+display: none;
+}
+
+#MenuR{
+display: none;
 }
 
 #BH img{
@@ -16,19 +30,17 @@ margin-right: auto;
 width: 25%;
 }
 
+.icon-button{
+    display: none;
+    
+}
 
 #Menu{
 background-color: rgba(0, 0, 0, 0);
-
-
 }
-
-
 #Nav{
 text-align: center;
 }
-
-
 #Menu ul li{
 display: inline-block;
 background-color: rgba(255, 255, 255, 0);
@@ -36,10 +48,7 @@ border-radius: 10px;
 padding: 5px;
 width: 150px;
 transition: all 1.5s;
-
 }
-
-
 #Menu ul li a{
 color: rgb(255, 255, 255);
 text-decoration: none;
@@ -47,17 +56,108 @@ font-family: Arial, Helvetica, sans-serif;
 font-weight: bolder;
 display: block;
 transition: all 1s;
-
 }
-
 #Nav li a:hover{
 color: rgb(0, 0, 0);
 padding-left: 5px;
-
-
-
 }
 #Nav li:hover{
 background-color: rgb(255, 255, 255);
+}
+
+/*Header*/
+
+/*Responsive Header and Menu*/
+
+@media (max-width:2560px) {  
+#BH img{
+width: 27%;
+transition: all 1s;  
+}  
+}
+@media (max-width:1440px) { 
+#BH img{
+width: 30%;
+transition: all 1s;    
+}      
+}
+@media (max-width:1440px) { 
+#BH img{
+width: 40%;  
+transition: all 1s;    
+}      
+}
+@media (max-width:768px) { 
+#BH img{
+width: 55%;  
+transition: all 1s;    
+}      
+}
+/*Responsive Header and Menu*/
+
+/*Responsive Mobil Page Design*/
+@media (max-width:425px) {   
+#BH {
+display: none;
+}
+#Menu{
+display: none;
+}
+
+/*Menu Responsive*/
+
+#MenuR{
+display: block;
+}
+#MenuR Label{
+display: block;
+width: 40px;
+height: 40px;
+padding: 5px;
+transition: all 1s;
+}
+#MenuR Label:hover{
+opacity: 70%;
+}
+#MenuR label img{
+width: 40px;
+}
+
+.RMenu {
+margin-top: -200px;
+transition: all 1s;
+}
+
+.RMenu ul{
+background-color: rgb(0, 4, 65);
+text-align: center;
 
 }
+.RMenu ul li{
+transition: all 1s;
+padding: 10px; 
+}
+.RMenu ul li a{
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+ color: rgb(255, 255, 255);
+ transition: all 1s;  
+}
+.RMenu ul li:hover{
+background-color: white;
+ }
+.RMenu ul li a:hover{
+color: black;
+}
+
+
+#B-Menu:checked ~ .RMenu {
+
+margin-top: 0px;    
+}
+
+
+/*Menu Responsive Mobil*/
+}
+/*Responsive Mobil Page Design*/
