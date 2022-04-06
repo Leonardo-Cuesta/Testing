@@ -172,8 +172,7 @@ font-weight: bolder;
 .RMenu ul li:hover{
 background-color: white;
 border-radius: 40px;
-
- }
+}
 .RMenu ul li a:hover{
 color: black;
 font-size: 20px;
@@ -187,7 +186,7 @@ display: block;
 z-index: 1;  
 }
 .galery img{
-width: auto;
+width: 425px;
 z-index: 1;  
 }
 
