@@ -307,7 +307,12 @@ overflow: hidden;
 #B-Menu:checked ~ .RMenu {
 margin-top: 25px; 
 opacity: 100%;   
-}  
+}
+
+.HRe img{ 
+width: 100%;
+margin-left: 10px;      
+}
     
     
 
@@ -317,7 +322,8 @@ opacity: 100%;
 
 @media (max-width:325px) { 
 .HRe img{ 
-width: 120%;      
+width: 120%;
+margin-left: 10px;      
 }
 #B-Menu:checked ~ .RMenu {
     margin-top: 25px; 
