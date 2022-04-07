@@ -299,7 +299,7 @@ border-radius: 0px;
 }
 
 .slider{  
-width: 425px;
+width: 113%;
 margin: auto;
 overflow: hidden;       
 }
@@ -323,13 +323,17 @@ margin-left: 0px;
 @media (max-width:325px) { 
 .HRe img{ 
 width: 100%;
-margin-left: 10px;      
+margin-left: 40px;      
 }
 #B-Menu:checked ~ .RMenu {
-    margin-top: 15px; 
-    opacity: 100%;   
-    }   
-        
+margin-top: 15px; 
+opacity: 100%;   
+}   
+.slider{  
+width: 132%;
+margin: auto;
+overflow: hidden;       
+}    
     
 }
 /*Mobil Scale Responsive*/
