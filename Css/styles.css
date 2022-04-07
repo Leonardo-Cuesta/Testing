@@ -162,7 +162,8 @@ transition: all 1s;
 @media (max-width:425px) {
     
 .HRe{
-display: block;  
+display: block;
+position: absolute;  
 
  }
  .HRe img{
@@ -279,6 +280,7 @@ border-radius: 0px;
 width: 100%;
 margin: auto;
 overflow: hidden;
+padding-top: 80px;
     
     
     
@@ -299,10 +301,14 @@ border-radius: 0px;
 }
 
 .slider{  
-width: 113%;
+
+
+width: 424px;
 margin: auto;
 overflow: hidden;       
 }
+
+
 
 #B-Menu:checked ~ .RMenu {
 margin-top: 25px; 
@@ -310,10 +316,15 @@ opacity: 100%;
 }
 
 .HRe img{ 
-width: 100%;
-margin-left: 0px;      
+width: 110%;
+margin-left: 0px;  
+  
 }
-    
+.HRe{ 
+    position: absolute;
+    width: 375px;
+}
+       
     
 
 }
@@ -323,14 +334,14 @@ margin-left: 0px;
 @media (max-width:325px) { 
 .HRe img{ 
 width: 100%;
-margin-left: 40px;      
+margin-left: 10px;      
 }
 #B-Menu:checked ~ .RMenu {
 margin-top: 15px; 
 opacity: 100%;   
 }   
 .slider{  
-width: 132%;
+width: 425px;
 margin: auto;
 overflow: hidden;       
 }    
