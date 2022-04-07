@@ -14,31 +14,25 @@ background-color: black;
 .HRe{
 display: none;    
 }
-
-
 .galery
 {
 display: none;
 }
 #MenuR Label{
-display: none;
-    
+display: none;    
 }
 #B-Menu{
 display: none;
 }
-
 #MenuR{
 display: none;
 }
-
 #BH img{
 display: block;
 margin-left: auto;
 margin-right: auto;
 width: 25%;
 }
-
 .icon-button{
     display: none;
     
@@ -82,9 +76,6 @@ background-color: rgb(255, 255, 255);
 width: 98%;
 margin: auto;
 overflow: hidden;
-
-
-
 } 
 .slider ul{  
 display: flex;
@@ -92,10 +83,7 @@ padding: 0;
 width: 400%;
 animation: cambio 20s infinite;
 animation-direction: alternate;
-
-
 }
-
 .slider li{ 
 width: 100%; 
 list-style: none;}
@@ -105,13 +93,8 @@ list-style: none;}
  height: 60%;
 object-fit: cover;
 border-radius: 10px;
-
-
-
 }
     
-
-
 @keyframes cambio {
     
 0% {margin-left:0;}
@@ -160,36 +143,26 @@ transition: all 1s;
 
 /*Responsive Mobil Page Design*/
 @media (max-width:425px) {
-    
 .HRe{
 display: block;
 position: absolute;  
-
- }
+}
  .HRe img{
 width: 100%;
-
- }
-
-            
+}          
 #B-Menu{
 z-index: 500;
 }
-
 #BH {
 display: none;
 }
 #Menu{
 display: none;
 }
-
 /*Menu Responsive*/
-
 #MenuR{
 display: block;
-
 position: absolute;
-
 }
 #MenuR Label{
 display: block;
@@ -197,24 +170,17 @@ width: 40px;
 height: 40px;
 padding: 5px;
 transition: all 1s;
-
 }
 #MenuR Label:hover{
 opacity: 100%;
 }
-
-
 #MenuR label img{
 width: 40px;
 transition: all 1s;
-
 }
 #MenuR label img:hover{
 width: 45px;
-
 }
-    
-
 .RMenu {
 opacity: 0%;
 margin-top: -300px;
@@ -224,23 +190,14 @@ width: 100%;
 margin-left: 0px;
 background-color: rgba(0, 0, 59, 0.781);
 width: 100vmin;
-
-
-
-
 }
-
 .RMenu ul{
-
 text-align: center;
 list-style: none;
-
-
 }
 .RMenu ul li{
 transition: all 1s;
 padding: 22px; 
-
 }
 .RMenu ul li a{
 text-decoration: none;
@@ -318,9 +275,7 @@ padding-top: 80px;
 }
 
 
-@media (max-width:320px) { 
-    
-    
+@media (max-width:320px) {    
 .RMenu {
 opacity: 10%;
 margin-top: -300px;
@@ -328,8 +283,7 @@ transition: all 1s;
 z-index: 1;
 width: 100vmin;
 margin-left: 0px;
-background-color: rgba(0, 0, 59, 0.781);
-        
+background-color: rgba(0, 0, 59, 0.781);       
 }          
 .RMenu ul{          
 text-align: center;
