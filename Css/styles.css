@@ -335,7 +335,7 @@ padding-top: 60px;
 
 .SSV{
 border-radius: 10px;
-height: 1000px;
+height:130vmin;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -372,10 +372,20 @@ padding: 20px;
  
 }
 
+@media (max-width:425px) {
+#cars a img{
+width: 40vmin;
+padding: 10px; 
+transition: all 1s;
+border-radius: 20px;
+ 
+}
 
-
-
-
-
+#cars a img:hover{
+width: 50vmin;
+padding: 20px; 
+ 
+}
+}
 
 /*SSV Responsive*/
