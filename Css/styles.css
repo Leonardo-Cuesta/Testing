@@ -70,6 +70,13 @@ background-color: rgb(255, 255, 255);
 
 /*Header*/
 
+
+
+
+
+
+
+
 /*SLIDER*/
 
 .slider{  
@@ -270,11 +277,7 @@ margin: auto;
 overflow: hidden;
 padding-top: 80px;  
 }
-
-
 }
-
-
 @media (max-width:320px) {    
 .RMenu {
 opacity: 10%;
@@ -323,3 +326,77 @@ padding-top: 60px;
 }  
 }
 /*Mobil Scale Responsive*/
+
+
+/*SSV Responsive*/
+
+.SSV{
+    margin-top: -300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 0, 0);
+    width: 85%;
+    
+}
+
+#Car1 img{
+width: 300px;
+border-radius: 10px;
+transition: all 1s;    
+
+}
+#Car2 img{
+width: 300px;
+border-radius: 10px;      
+transition: all 1s;  
+}
+#Car3 img{
+width: 300px;
+border-radius: 10px;      
+transition: all 1s;  
+}
+
+#Car4 img{
+width: 300px;    
+border-radius: 10px;  
+transition: all 1s;  
+}
+
+#Car5 img{
+width: 300px;
+border-radius: 10px;      
+ transition: all 1s;     
+ }
+
+ #Car1 img:hover{
+width: 320px;
+border-radius: 10px;    
+
+}
+#Car2 img:hover{
+width: 320px;
+border-radius: 10px;    
+
+}
+#Car3 img:hover{
+width: 320px;
+border-radius: 10px;    
+
+}
+#Car4 img:hover{
+width: 320px;
+border-radius: 10px;    
+
+}
+#Car5 img:hover{
+width: 320px;
+border-radius: 10px;    
+
+}
+
+
+
+
+
+/*SSV Responsive*/
