@@ -216,9 +216,9 @@ width: 45px;
     
 
 .RMenu {
-opacity: 10%;
+opacity: 0%;
 margin-top: -300px;
-transition: all 1s;
+transition: all 0.5s;
 z-index: 1;
 width: 100%;
 margin-left: 0px;
@@ -297,7 +297,7 @@ list-style: none;
 }
 .RMenu ul li{
 transition: all 1s;
-padding: 22px;       
+padding: 19px;       
 }
 .RMenu ul li a{
 text-decoration: none;
@@ -306,12 +306,21 @@ font-weight: bolder;
 color: rgb(255, 255, 255);
 transition: all 1s;  
 display: block;
-         
 } 
+.slider{  
+width: 100%;
+margin: auto;
+overflow: hidden;
+padding-top: 80px;  
 }
 
 
-@media (max-width:320px) {   
+}
+
+
+@media (max-width:320px) { 
+    
+    
 .RMenu {
 opacity: 10%;
 margin-top: -300px;
@@ -319,7 +328,8 @@ transition: all 1s;
 z-index: 1;
 width: 100vmin;
 margin-left: 0px;
-background-color: rgba(0, 0, 59, 0.781);         
+background-color: rgba(0, 0, 59, 0.781);
+        
 }          
 .RMenu ul{          
 text-align: center;
@@ -327,7 +337,7 @@ list-style: none;
 }
 .RMenu ul li{
 transition: all 1s;
-padding: 22px;           
+padding: 15px;           
 }
 .RMenu ul li a{
 text-decoration: none;
@@ -336,6 +346,10 @@ font-weight: bolder;
 color: rgb(255, 255, 255);
 transition: all 1s;  
 display: block;           
+}
+#B-Menu:checked ~ .RMenu {
+margin-top: 20px;
+opacity: 100%;   
 }         
 .HRe img{
 width: 100vmin;   
@@ -346,6 +360,12 @@ transition: all 1s;
 }
 #MenuR label img:hover{
 width: 35px;   
+}
+.slider{  
+width: 100%;
+margin: auto;
+overflow: hidden;
+padding-top: 60px;  
 }  
 }
 /*Mobil Scale Responsive*/
