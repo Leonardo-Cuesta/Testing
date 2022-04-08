@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nosotros</title>
+    <!--Styles Css-->
     <style>
 
     /*Structure Basic*/
@@ -19,6 +20,7 @@
     width: 100%;
     height: 20vmin;}
     article{
+    overflow: auto;
     border-style: groove;
     border-radius: 20px;    
     display: block;
@@ -26,14 +28,7 @@
     margin-right: auto;
     background-color: rgba(2, 0, 32, 0.253);
     width: 80%;
-    height: 1000px;}
-    aside{
-    display:block ;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: greenyellow;
-    width: 90%;
-    height: 30vmin;}
+    height: auto;}
     footer{
     background-color: darkblue;
     width: 100%;
@@ -74,10 +69,9 @@
     margin-left: auto;
     margin-right: auto;
     color: white;
-    width: 70%;
+    width: 80%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;}
-
     #tit{
     background-color: white;
     color: black;
@@ -85,9 +79,179 @@
     text-align: center;
     border-radius: 20px;
     font-size: 3vmin;}
-
+    #profile{
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 45%;
+    float: right;}
+    #tit2{
+     margin-top: 2vmin;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 3vmin;}
+    #profile2{
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin-right: 10px;
+    width: 45%;
+    float: left;}
+    
+    
 
     /*Styles Header*/
+    /*Responsive Footer*/
+.Sprin{
+display: inline-flex;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 18vmin;
+background-color: rgb(3, 0, 19);
+}
+
+
+#T1{
+margin-left: 30vw;
+background-color: rgb(3, 0, 19);
+width: 20vmax;
+height: 18vmin;
+text-align: center;
+
+}
+#T1 ul li a{
+font-size: 1.5vmin;
+text-decoration: none;
+color: white; 
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+transition: all 2s;
+padding: 5px;
+display: block;
+ 
+}
+#T1 ul li a:hover{
+font-size: 1.5vmin;
+text-decoration: none;
+color: rgb(0, 0, 0); 
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+background-color: white;
+border-radius: 20px;
+padding: 3px;
+ 
+}
+#T1 ul {
+list-style: none; 
+}
+#T1 p strong{
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2vmin;
+}
+
+#T2{
+margin-left: 1vw;
+background-color: rgb(3, 0, 19);
+width: 20vmax;
+height: 20vmin;
+height: 18vmin;
+}
+
+#T2 ul li a{
+font-size: 1.5vmin;
+text-decoration: none;
+color: white; 
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+transition: all 2s;
+padding: 5px;
+display: block;
+ 
+}
+#T2 ul li a:hover{
+font-size: 1.5vmin;
+text-decoration: none;
+color: rgb(0, 0, 0); 
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+background-color: white;
+border-radius: 20px;
+padding: 3px;
+ 
+}
+#T2 ul {
+list-style: none;
+
+    
+}
+
+#T2 p strong{
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2vmin;
+}
+.Copyright {
+background-color: black;
+width: auto;
+height: 2vmin;
+text-align: center;
+
+}
+.Copyright p strong{
+color: white;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 1.5vmin;
+}
+/*Responsive Footer*/
+/*Responsive Footer*/
+
+
+
+@media (max-width:768px)
+{
+.Sprin{
+display: inline-flex;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 17vmax;
+background-color: rgb(3, 0, 19);
+}
+#T1{
+margin-left: 25vw;
+background-color: rgb(3, 0, 19);
+width: 20vmax;
+height: 18vmin;
+text-align: center;
+}
+}
+
+@media (max-width:700px)
+{
+.Sprin{
+display: inline-flex;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 12vmax;
+background-color: rgb(3, 0, 19);
+}
+#T1{
+margin-left: 12vw;
+background-color: rgb(3, 0, 19);
+width: 20vmax;
+height: 18vmin;
+text-align: center;
+
+}
+
+
+
+}
+/*Responsive Footer*/ 
   
     </style>
 </head>
@@ -109,6 +273,7 @@
 
 <!--Contain And Text-->
 <article>
+    <br>    
     <p id="tit">Sobre Nosotros</p>
 
 
@@ -117,8 +282,8 @@
 
 <br>
      <p>
-         <img src="img/Wrangler.jpg" alt="" style="float: right; width: 300px; display: block;margin-left: auto; margin-right: auto;">
-     JeepStationSas Cuenta con mas de 15 años de Experiencia en el servicio de Diagnostico y Reparacion de automotores, actualmente su sede reside 
+    <img src="img/About.jpg" alt="" id="profile">
+    JeepStationSas Cuenta con mas de 15 años de Experiencia en el servicio de Diagnostico y Reparacion de automotores, actualmente su sede reside 
     en la ciudad de bogota.Dc en colombia, nos especializamos en dar el mejor servicio al mejor precio. tenemos personal experimentado que cuidaran 
     de tu motor, contamos con gran cantidad de servicios de reparacion para tu vehiculo.
     </p> 
@@ -127,26 +292,68 @@
     Empresa Fundada en el año 2007 por el Ceo de la empresa Wilson alejandro alfonso sanchez, Jefe Actual de la empresa y experto en las 
     lineas jeep, dodge, chrysler. con amplio conocimiento en diagnostico y reparacion de automotores con mas de 25 años de experiencia en el 
     campo de la mecanica automotriz. Actualmente cuenta con una unica sede en la ciudad de bogota. 
-
-
-
-
-
     </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    br
+    <p id="tit2">Nuestra Mision</p>
+    <br>
+    <br>
+    <p>
+    <img src="img/Jeep 3.png" alt="" id="profile2">
+    JeepStationSas Cuenta con mas de 15 años de Experiencia en el servicio de Diagnostico y Reparacion de automotores, actualmente su sede reside 
+    en la ciudad de bogota.Dc en colombia, nos especializamos en dar el mejor servicio al mejor precio. tenemos personal experimentado que cuidaran 
+    de tu motor, contamos con gran cantidad de servicios de reparacion para tu vehiculo.
+    </p> 
+    <br>
+    <p>
+    Empresa Fundada en el año 2007 por el Ceo de la empresa Wilson alejandro alfonso sanchez, Jefe Actual de la empresa y experto en las 
+    lineas jeep, dodge, chrysler. con amplio conocimiento en diagnostico y reparacion de automotores con mas de 25 años de experiencia en el 
+    campo de la mecanica automotriz. Actualmente cuenta con una unica sede en la ciudad de bogota.
+    Empresa Fundada en el año 2007 por el Ceo de la empresa Wilson alejandro alfonso sanchez, Jefe Actual de la empresa y experto en las 
+    lineas jeep, dodge, chrysler. con amplio conocimiento en diagnostico y reparacion de automotores con mas de 25 años de experiencia en el 
+    campo de la mecanica automotriz. Actualmente cuenta con una unica sede en la ciudad de bogota. 
+    </p>
+    
 </article>
 <br>
 <!--Contain And Text-->
 
-<!--Important Info-->
-<aside>
-
-</aside>
-<br>
-<!--Important Info-->
 
 <!--Footer Info-->
 <footer>
+    <div class="Sprin">
 
+        <div id="T1">
+            <p><strong>Informacion</strong></p>
+            <br>
+            <ul>
+                <li><a href="">Politica de Privacidad</a></li>
+                <li><a href="">Terminos y Condiciones </a></li>
+                <li><a href="Contact.html">Contacto</a></li>
+                <li><a href="About us.html">Sobre Nosotros</a></li>
+            </ul>
+    
+        </div>
+        
+        <div id="T2">
+            <p><strong>Contacto</strong></p>
+            <br>
+            <ul>
+                <li><a href="">+57-3112973266</a></li>
+                <li><a href="">Cl. 65a #72-75, Bogotá, Cundinamarca </a></li>
+                <li><a href="">JeepStationSas@gmail.com</a></li>
+                <li><a href="">Facebook Page</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    
+    <div class="Copyright">
+    <p><strong>@Copyright JeepStationSas</strong></p>
+    </div>
 </footer>
 <br>
 <!--IFooter INfo-->
