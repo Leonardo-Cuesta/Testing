@@ -13,27 +13,18 @@
     padding: 0;
     box-sizing:border-box ; }
     body{
-    background-color: black;}    
+    background-color: rgb(0, 0, 0);}    
     header{
     background-color: rgb(0, 0, 0);
     width: 100%;
     height: 20vmin;}
     article{
-    border-style: groove;
-    border-radius: 20px;    
     display: block;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(2, 0, 32, 0.253);
-    width: 80%;
-    height: 1000px;}
-    aside{
-    display:block ;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: greenyellow;
-    width: 90%;
-    height: 30vmin;}
+    height: auto;}
+    
     footer{
     background-color: darkblue;
     width: 100%;
@@ -69,7 +60,177 @@
     .Nav a{
     text-decoration: none;}
     /*Styles Header*/
+    #font img{
+    width: 100%;
+    transition: all 1s;    
+    }
+    #font2 img{
+    width: 100%; 
+    display: none;  
+    transition: all 1s; 
+    }
+
+    @media (max-width:768px)
+{
+
+    #font{
+    display: none;    
+
+    }
+
+    #font2 img{
+        display: block;
+    }
+    
+
+}
+
+      /*Responsive Footer*/
+      .Sprin{
+display: inline-flex;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 18vmin;
+background-color: rgb(3, 0, 19);
+}
+
+
+#T1{
+margin-left: 30vw;
+background-color: rgb(3, 0, 19);
+width: 20vmax;
+height: 18vmin;
+text-align: center;
+
+}
+#T1 ul li a{
+font-size: 1.5vmin;
+text-decoration: none;
+color: white; 
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+transition: all 2s;
+padding: 5px;
+display: block;
+ 
+}
+#T1 ul li a:hover{
+font-size: 1.5vmin;
+text-decoration: none;
+color: rgb(0, 0, 0); 
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+background-color: white;
+border-radius: 20px;
+padding: 3px;
+ 
+}
+#T1 ul {
+list-style: none; 
+}
+#T1 p strong{
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2vmin;
+}
+
+#T2{
+margin-left: 1vw;
+background-color: rgb(3, 0, 19);
+width: 20vmax;
+height: 20vmin;
+height: 18vmin;
+}
+
+#T2 ul li a{
+font-size: 1.5vmin;
+text-decoration: none;
+color: white; 
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+transition: all 2s;
+padding: 5px;
+display: block;
+ 
+}
+#T2 ul li a:hover{
+font-size: 1.5vmin;
+text-decoration: none;
+color: rgb(0, 0, 0); 
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+background-color: white;
+border-radius: 20px;
+padding: 3px;
+ 
+}
+#T2 ul {
+list-style: none;
+
+    
+}
+
+#T2 p strong{
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2vmin;
+}
+.Copyright {
+background-color: black;
+width: auto;
+height: 2vmin;
+text-align: center;
+
+}
+.Copyright p strong{
+color: white;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 1.5vmin;
+}
+/*Responsive Footer*/
+/*Responsive Footer*/
+
+
+
+@media (max-width:768px)
+{
+.Sprin{
+display: inline-flex;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 17vmax;
+background-color: rgb(3, 0, 19);
+}
+#T1{
+margin-left: 25vw;
+background-color: rgb(3, 0, 19);
+width: 20vmax;
+height: 18vmin;
+text-align: center;
+}
+}
+
+@media (max-width:700px)
+{
+.Sprin{
+display: inline-flex;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 12vmax;
+background-color: rgb(3, 0, 19);
+}
+#T1{
+margin-left: 12vw;
+background-color: rgb(3, 0, 19);
+width: 20vmax;
+height: 18vmin;
+text-align: center;
+}}
   
+    
     </style>
 </head>
 <body>
@@ -87,26 +248,65 @@
 </header>
 <!--Menu Nav-->
 <br>
-
+<br>
+<hr>
 <!--Contain And Text-->
 <article>
+
+    <div id="font">
+       
+    <img src="img/Contact us.jpg" alt="">
+
+    
+       
+    </div>
+    <div id="font2">
+       
+        <img src="img/Contact us 2.jpg" alt="">
+    
+        
+           
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.515515896848!2d-74.1031009852377!3d4.680081496600536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b3ba24d8c0b%3A0x6ae02ade2e37156f!2sJeep%20Station%20SAS!5e0!3m2!1ses-419!2sco!4v1649350909695!5m2!1ses-419!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 
 </article>
 <br>
 <!--Contain And Text-->
 
-<!--Important Info-->
-<aside>
 
-</aside>
-<br>
-<!--Important Info-->
 
 <!--Footer Info-->
-<footer>
+<div class="Sprin">
 
-</footer>
-<br>
+    <div id="T1">
+        <p><strong>Informacion</strong></p>
+        <br>
+        <ul>
+            <li><a href="">Politica de Privacidad</a></li>
+            <li><a href="">Terminos y Condiciones </a></li>
+            <li><a href="Contact.html">Contacto</a></li>
+            <li><a href="About us.html">Sobre Nosotros</a></li>
+        </ul>
+
+    </div>
+    
+    <div id="T2">
+        <p><strong>Contacto</strong></p>
+        <br>
+        <ul>
+            <li><a href="">+57-3112973266</a></li>
+            <li><a href="">Cl. 65a #72-75, Bogotá, Cundinamarca </a></li>
+            <li><a href="">JeepStationSas@gmail.com</a></li>
+            <li><a href="">Facebook Page</a></li>
+        </ul>
+    </div>
+    
+</div>
+
+<div class="Copyright">
+<p><strong>@Copyright JeepStationSas</strong></p>
+</div>
 <!--IFooter INfo-->
 </body>
 </html>
